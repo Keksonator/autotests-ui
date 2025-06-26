@@ -1,0 +1,22 @@
+# Игнорируем виртуальное окружение
+venv/
+.venv/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Файлы IDE
+.idea/
+*.iml
+
+# Логи и временные файлы
+*.log
+*.tmp
+.DS_Store
+
+# Файлы зависимостей (если у тебя есть)
+.mypy_cache/
+.pytest_cache/
